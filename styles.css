@@ -1,0 +1,15 @@
+body.index {
+    background-color: #F2F2F2;
+    padding: 2vw;
+}
+
+html.main {
+    max-width: 65ch;
+    max-width: 600px;
+}
+
+section.copy {
+    color:#0B64FE;
+    font-family: 'Times New Roman', serif;
+    font-size: 1.2rem;
+}
