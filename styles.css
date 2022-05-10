@@ -1,5 +1,16 @@
+:root {
+    --background-color: #F2F2F2;
+    --text-color: #0B64FE;
+}
+
+[data-theme="dark"] {
+    --background-color: #1e212e;
+    --text-color: #91A8CF;
+}
+  
 body.index {
-    background-color: #F2F2F2;
+    background-color: var(--background-color);
+    color: var(--text-color);
     padding: 2vw;
 }
 
@@ -9,7 +20,16 @@ html.main {
 }
 
 section.copy {
-    color:#0B64FE;
     font-family: 'Times New Roman', serif;
     font-size: 1.2rem;
+}
+
+.btn {
+    color: rgb(35, 35, 35);
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 25px;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    cursor: pointer;
 }
